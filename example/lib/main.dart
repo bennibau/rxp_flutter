@@ -11,6 +11,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  String result = "";
+  bool success = false;
+
   @override
   void initState() {
     super.initState();
@@ -26,6 +29,12 @@ class _MyAppState extends State<MyApp> {
         body: Center(
           child: Column(
             children: [
+              SizedBox(height: 50),
+              Center(
+                child: Text(result,
+                    style: TextStyle(
+                        color: this.success ? Colors.green : Colors.red)),
+              ),
               SizedBox(height: 50),
               RaisedButton(
                 onPressed: () async {
@@ -43,6 +52,10 @@ class _MyAppState extends State<MyApp> {
                   print(result.success);
                   print(result.result);
                   print(result.code);
+                  setState(() {
+                    this.success = result.success;
+                    this.result = result.result;
+                  });
                 },
                 child: Text('Show Payment Window'),
               )

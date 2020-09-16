@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b47eba8-93ac-43b5-9575-912ca36e9f2c" name="Default Changelist" comment="" />
+    <list default="true" id="0b47eba8-93ac-43b5-9575-912ca36e9f2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/example/rxp_flutter/PaymentActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/src/main/res/layout/payment_activity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/android/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/src/main/kotlin/com/example/rxp_flutter/RxpFlutterPlugin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/android/src/main/kotlin/com/example/rxp_flutter/RxpFlutterPlugin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rxp_flutter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rxp_flutter.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_29" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="9B051FFBA00647" />
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1hDXnd2aM6nIgaTW1VF0UeX4rqI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -15,9 +42,15 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DEBUGGABLE_DEVICE" value="google-pixel_4_xl-9B051FFBA00647" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.rxp_flutter_example" />
+    <property name="DEBUGGER_ID" value="Java" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="flutter.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -34,29 +67,102 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="673" y="324" key="AndroidProcessChooserDialog" timestamp="1600178496838">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-935" y="813" key="AndroidProcessChooserDialog/0.23.1920.1057/-1440.563.1440.877@-1440.563.1440.877" timestamp="1600160300066" />
+    <state x="673" y="324" key="AndroidProcessChooserDialog/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600178496838" />
+    <state x="265" y="89" width="1523" height="920" key="CommitChangelistDialog2" timestamp="1600239600598">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1440" y="563" width="1440" height="877" key="CommitChangelistDialog2/0.23.1920.1057/-1440.563.1440.877@-1440.563.1440.877" timestamp="1600159891120" />
+    <state x="265" y="89" width="1523" height="920" key="CommitChangelistDialog2/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600239600598" />
     <state width="589" height="466" key="DebuggerActiveHint" timestamp="1599741878697">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="589" height="466" key="DebuggerActiveHint/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599741878697" />
-    <state width="1384" height="203" key="GridCell.Tab.0.bottom" timestamp="1599742115746">
+    <state x="100" y="123" width="1420" height="857" key="DiffContextDialog" timestamp="1600076499096">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
+    <state x="100" y="123" width="1420" height="857" key="DiffContextDialog/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600076499096" />
+    <state width="1504" height="329" key="GridCell.Tab.0.bottom" timestamp="1600239602388">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1398" height="503" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1440.563.1440.877@-1440.563.1440.877" timestamp="1600160590485" />
+    <state width="1504" height="329" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600239602388" />
     <state width="1384" height="203" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599742115746" />
-    <state width="1384" height="203" key="GridCell.Tab.0.center" timestamp="1599742115745">
+    <state width="1504" height="329" key="GridCell.Tab.0.center" timestamp="1600239602387">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="503" key="GridCell.Tab.0.center/0.23.1920.1057/-1440.563.1440.877@-1440.563.1440.877" timestamp="1600160590485" />
+    <state width="1504" height="329" key="GridCell.Tab.0.center/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600239602387" />
     <state width="1384" height="203" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599742115745" />
-    <state width="1384" height="203" key="GridCell.Tab.0.left" timestamp="1599742115745">
+    <state width="1504" height="329" key="GridCell.Tab.0.left" timestamp="1600239602387">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="503" key="GridCell.Tab.0.left/0.23.1920.1057/-1440.563.1440.877@-1440.563.1440.877" timestamp="1600160590484" />
+    <state width="1504" height="329" key="GridCell.Tab.0.left/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600239602387" />
     <state width="1384" height="203" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599742115745" />
-    <state width="1384" height="203" key="GridCell.Tab.0.right" timestamp="1599742115745">
+    <state width="1504" height="329" key="GridCell.Tab.0.right" timestamp="1600239602388">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
+    <state width="1398" height="503" key="GridCell.Tab.0.right/0.23.1920.1057/-1440.563.1440.877@-1440.563.1440.877" timestamp="1600160590485" />
+    <state width="1504" height="329" key="GridCell.Tab.0.right/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600239602388" />
     <state width="1384" height="203" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599742115745" />
-    <state width="383" height="280" key="javadoc.popup.new" timestamp="1599740997763">
+    <state x="445" y="147" key="RollbackChangesDialog" timestamp="1600237782579">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
+    <state x="-1106" y="666" key="RollbackChangesDialog/0.23.1920.1057/-1440.563.1440.877@-1440.563.1440.877" timestamp="1600159292066" />
+    <state x="445" y="147" key="RollbackChangesDialog/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600237782579" />
+    <state x="311" y="190" key="SettingsEditor" timestamp="1600168983311">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="311" y="190" key="SettingsEditor/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600168983311" />
+    <state x="517" y="263" key="VCS.ChangeListViewerDialog" timestamp="1600076776487">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="517" y="263" key="VCS.ChangeListViewerDialog/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600076776487" />
+    <state x="100" y="123" width="1720" height="857" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1600173047843">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="100" y="123" width="1720" height="857" key="com.android.tools.idea.avdmanager.AvdListDialog/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600173047843" />
+    <state x="462" y="308" width="695" height="486" key="find.popup" timestamp="1600083540145">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="462" y="308" width="695" height="486" key="find.popup/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600083540145" />
+    <state width="383" height="280" key="javadoc.popup.new" timestamp="1600238152088">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="300" height="233" key="javadoc.popup.new/0.23.1920.1057/-1440.563.1440.877@-1440.563.1440.877" timestamp="1600166339979" />
+    <state width="383" height="280" key="javadoc.popup.new/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600238152088" />
     <state width="383" height="280" key="javadoc.popup.new/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599740997763" />
+    <state x="438" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1600238536169">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="438" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1920.1057/-1440.563.1440.877@0.23.1920.1057" timestamp="1600238536169" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/example/lib/main.dart</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/rxp_flutter.dart</url>
+          <line>37</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/rxp_flutter.dart</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint suspend="THREAD" type="dart-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
