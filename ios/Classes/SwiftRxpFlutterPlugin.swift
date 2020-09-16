@@ -29,6 +29,8 @@ public class SwiftRxpFlutterPlugin: NSObject, FlutterPlugin {
                     "code": 9999])
                     return
                 }
+            
+            print(contentDict)
                 
                 let appDelegate = UIApplication.shared.delegate as! FlutterAppDelegate
                 let controller : FlutterViewController =  appDelegate.window!.rootViewController as! FlutterViewController
@@ -45,17 +47,21 @@ public class SwiftRxpFlutterPlugin: NSObject, FlutterPlugin {
                 if let account = contentDict["account"] as? String {
                     hppManager.account = account
                 }
-                if let amount = contentDict["amount"] as? String {
-                    hppManager.amount = amount
+                if let amount = contentDict["amount"] as? Int {
+                    hppManager.amount = "\(amount)"
                 }
                 if let currency = contentDict["currency"] as? String {
                     hppManager.currency = currency
+                }
+                if let productId = contentDict["productId"] as? String {
+                    hppManager.productId = productId
                 }
                 if let supplementaryData = contentDict["supplementaryData"] as? Dictionary<String, String> {
                     supplementaryData.forEach { (key, value) in
                         hppManager.supplementaryData[key] = value
                     }
                 }
+            
                 DispatchQueue.main.async {
                 // present view controller and init and set delegate
                 hppManager.presentViewInViewController(controller)
@@ -85,7 +91,7 @@ class ElavonDelegate: HPPManagerDelegate {
     }
     func HPPManagerFailedWithError(_ error: NSError?) {
         self.result(["success": false,
-                     "result": error?.localizedDescription ?? " ",
+                     "result": error?.localizedDescription ?? "Payment Failed",
                      "code": error?.code ?? 9999])
     }
     func HPPManagerCompletedWithResult(_ result: Dictionary<String, String>) {

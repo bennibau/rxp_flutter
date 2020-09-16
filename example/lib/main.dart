@@ -11,6 +11,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
+  String result = "";
+  bool success = false;
+
   @override
   void initState() {
     super.initState();
@@ -27,22 +30,33 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             children: [
               SizedBox(height: 50),
+              Center(
+                child: Text(result,
+                    style: TextStyle(
+                        color: this.success ? Colors.green : Colors.red)),
+              ),
+              SizedBox(height: 50),
               RaisedButton(
                 onPressed: () async {
                   var result = await RxpFlutter.showPaymentWindow(
                       hppRequestProducerURL:
-                          'https://myserver.com/hppRequestProducer',
+                          'https://myserver.com/payment/request',
                       hppResponseConsumerURL:
-                          'https://myserver.com/hppResponseConsumer',
+                          'https://myserver.com/payment/callback',
                       hppURL: 'https://pay.sandbox.realexpayments.com/pay',
                       merchantId: 'realexsandbox',
                       account: 'internet',
-                      amount: 100,
+                      amount: 1337,
                       currency: 'EUR',
+                      productId: 'productId',
                       supplementaryData: {'UNKNOWN_1': 'Unknown value 1'});
                   print(result.success);
                   print(result.result);
                   print(result.code);
+                  setState(() {
+                    this.success = result.success;
+                    this.result = result.result;
+                  });
                 },
                 child: Text('Show Payment Window'),
               )

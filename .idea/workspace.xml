@@ -1,23 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b47eba8-93ac-43b5-9575-912ca36e9f2c" name="Default Changelist" comment="" />
+    <list default="true" id="0b47eba8-93ac-43b5-9575-912ca36e9f2c" name="Default Changelist" comment="changed pod to forked pod">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/example/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/example/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/example/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/example/ios/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/example/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/ios/Classes/SwiftRxpFlutterPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/ios/Classes/SwiftRxpFlutterPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/ios/rxp_flutter.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/ios/rxp_flutter.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/lib/rxp_flutter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter/lib/rxp_flutter.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Podfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Podfile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/pubspec.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Classes/SwiftRxpFlutterPlugin.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Classes/SwiftRxpFlutterPlugin.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/rxp_flutter.podspec" beforeDir="false" afterPath="$PROJECT_DIR$/ios/rxp_flutter.podspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/rxp_flutter.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rxp_flutter.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_29" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/example/ios/.symlinks/plugins/rxp_flutter" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
   <component name="ProjectId" id="1hDXnd2aM6nIgaTW1VF0UeX4rqI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="SvnConfiguration">
@@ -34,29 +64,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="170" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600067392474">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="170" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1600067392474" />
+    <state x="82" y="105" width="1526" height="888" key="CommitChangelistDialog2" timestamp="1600256930730">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="82" y="105" width="1526" height="888" key="CommitChangelistDialog2/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1600256930730" />
     <state width="589" height="466" key="DebuggerActiveHint" timestamp="1599741878697">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state width="589" height="466" key="DebuggerActiveHint/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599741878697" />
-    <state width="1384" height="203" key="GridCell.Tab.0.bottom" timestamp="1599742115746">
+    <state width="1367" height="353" key="GridCell.Tab.0.bottom" timestamp="1600256930816">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1384" height="203" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599742115746" />
-    <state width="1384" height="203" key="GridCell.Tab.0.center" timestamp="1599742115745">
+    <state width="1367" height="353" key="GridCell.Tab.0.bottom/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1600256930816" />
+    <state width="1367" height="353" key="GridCell.Tab.0.center" timestamp="1600256930815">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1384" height="203" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599742115745" />
-    <state width="1384" height="203" key="GridCell.Tab.0.left" timestamp="1599742115745">
+    <state width="1367" height="353" key="GridCell.Tab.0.center/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1600256930815" />
+    <state width="1367" height="353" key="GridCell.Tab.0.left" timestamp="1600256930815">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1384" height="203" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599742115745" />
-    <state width="1384" height="203" key="GridCell.Tab.0.right" timestamp="1599742115745">
+    <state width="1367" height="353" key="GridCell.Tab.0.left/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1600256930815" />
+    <state width="1367" height="353" key="GridCell.Tab.0.right" timestamp="1600256930816">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="1384" height="203" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599742115745" />
-    <state width="383" height="280" key="javadoc.popup.new" timestamp="1599740997763">
+    <state width="1367" height="353" key="GridCell.Tab.0.right/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1600256930816" />
+    <state x="207" y="187" key="SettingsEditor" timestamp="1600060687717">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state width="383" height="280" key="javadoc.popup.new/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1599740997763" />
+    <state x="207" y="187" key="SettingsEditor/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1600060687717" />
+    <state width="383" height="280" key="javadoc.popup.new" timestamp="1600240729775">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="383" height="280" key="javadoc.popup.new/0.23.1920.1057/-1680.90.1680.1027@0.23.1920.1057" timestamp="1600240729775" />
   </component>
 </project>
