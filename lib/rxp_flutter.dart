@@ -21,6 +21,7 @@ class RxpFlutter {
       String account,
       int amount,
       String currency,
+      String productId,
       Map<String, String> supplementaryData}) async {
     final payload = {
       'HPPRequestProducerURL': hppRequestProducerURL,
@@ -30,6 +31,7 @@ class RxpFlutter {
       'account': account,
       'amount': amount,
       'currency': currency,
+      'productId': productId,
       'supplementaryData': supplementaryData
     };
 

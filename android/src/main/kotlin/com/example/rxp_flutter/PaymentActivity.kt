@@ -7,7 +7,7 @@ import com.realexpayments.hpp.HPPError
 import com.realexpayments.hpp.HPPManager
 import com.realexpayments.hpp.HPPManagerListener
 
-class PaymentActivity : FragmentActivity(), HPPManagerListener<String> {
+class PaymentActivity : FragmentActivity(), HPPManagerListener<Any> {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.payment_activity)
@@ -17,7 +17,7 @@ class PaymentActivity : FragmentActivity(), HPPManagerListener<String> {
         supportFragmentManager.beginTransaction().add(R.id.container, hppFragment, null).commit()
     }
 
-    override fun hppManagerCompletedWithResult(t: String?) {
+    override fun hppManagerCompletedWithResult(t: Any?) {
         setResult(RESULT_OK)
         finish()
     }
