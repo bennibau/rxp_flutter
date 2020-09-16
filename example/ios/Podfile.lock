@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - rxp_flutter (0.0.1):
+    - Flutter
+    - RXPiOS (~> 1.5.0)
+  - RXPiOS (1.5.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - rxp_flutter (from `.symlinks/plugins/rxp_flutter/ios`)
+
+SPEC REPOS:
+  trunk:
+    - RXPiOS
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  rxp_flutter:
+    :path: ".symlinks/plugins/rxp_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  rxp_flutter: 0568acb29d387d2b3e340b1fb51154729c94e9af
+  RXPiOS: 462d0d013741b1e3a537308ff21332b115fbc4af
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.9.3
